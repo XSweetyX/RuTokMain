@@ -1,19 +1,17 @@
-package com.example.rutok.backend;
+package com.example.rutok.fragments;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
-import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentActivity;
 
-import com.example.rutok.AccountActivityFragment;
+import com.example.rutok.fragments.AccountActivityFragment;
 import com.example.rutok.R;
-import com.example.rutok.SearchActivityFragment;
-import com.example.rutok.VideoShowerFragment;
+import com.example.rutok.fragments.SearchActivityFragment;
+import com.example.rutok.fragments.VideoShowerFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 

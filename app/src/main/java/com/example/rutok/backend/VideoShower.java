@@ -8,6 +8,7 @@ import android.view.View;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.rutok.R;
+import com.example.rutok.fragments.VideoAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +37,7 @@ public class VideoShower extends Activity {
 
 
 
-        final ViewPager2 videosViewPager = findViewById(R.id.videoViewPager);
+        final ViewPager2 videosViewPager = findViewById(R.id.videoViewPagerNew);
 
         List<VideoItem> videoItems = new ArrayList<>();
 

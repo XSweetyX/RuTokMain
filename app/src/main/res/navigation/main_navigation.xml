@@ -6,17 +6,17 @@
     app:startDestination="@id/videoShowerFragment">
     <fragment
         android:id="@+id/videoShowerFragment"
-        android:name="com.example.rutok.VideoShowerFragment"
+        android:name="com.example.rutok.fragments.VideoShowerFragment"
         android:label="fragment_video_shower"
         tools:layout="@layout/fragment_video_shower" />
     <fragment
         android:id="@+id/accountActivityFragment"
-        android:name="com.example.rutok.AccountActivityFragment"
+        android:name="com.example.rutok.fragments.AccountActivityFragment"
         android:label="fragment_account_activity"
         tools:layout="@layout/fragment_account_activity" />
     <fragment
         android:id="@+id/searchActivityFragment"
-        android:name="com.example.rutok.SearchActivityFragment"
+        android:name="com.example.rutok.fragments.SearchActivityFragment"
         android:label="fragment_search_activity"
         tools:layout="@layout/fragment_search_activity" />
 </navigation>

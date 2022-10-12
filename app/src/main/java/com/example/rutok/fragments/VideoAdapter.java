@@ -1,6 +1,6 @@
-package com.example.rutok.backend;
+package com.example.rutok.fragments;
 
-import static com.example.rutok.backend.MainApplication.getContext;
+import static com.example.rutok.fragments.MainApplication.getContext;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
@@ -19,6 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.rutok.R;
+import com.example.rutok.backend.AccountActivity;
 
 import java.util.List;
 
