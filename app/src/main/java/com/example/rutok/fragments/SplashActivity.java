@@ -33,7 +33,7 @@ public class SplashActivity extends Activity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, VideoShower.class));
+                startActivity(new Intent(SplashActivity.this, NavigationActivity.class));
                 SplashActivity.this.finish();
             }
         }, 2000);//Ставите сколько сек, 1000 = 1с.
